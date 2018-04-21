@@ -1,21 +1,15 @@
 # HangmanTextClient
 
-**TODO: Add description**
+This is a simple Hangman Game that can be played on the console.
+
+It uses the core hangman logic and wraps it with the necessary methods that permit user interaction with it through the command line.
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hangman_text_client` to your list of dependencies in `mix.exs`:
+To play a nice hangman game fetch the repo, install its dependencies and then run the following command:
 
-```elixir
-def deps do
-  [
-    {:hangman_text_client, "~> 0.1.0"}
-  ]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hangman_text_client](https://hexdocs.pm/hangman_text_client).
+mix run -e HangmanTextClient.start
+```
 
