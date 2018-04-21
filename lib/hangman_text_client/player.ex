@@ -1,6 +1,6 @@
 defmodule HangmanTextClient.Player do
 
-  alias HangmanTextClient.{State, Summary}
+  alias HangmanTextClient.{Prompter, State, Summary}
 
   def play(%State{ tally: %{ game_state: :won } }) do
     exit_with_message("You WON!")
@@ -29,13 +29,9 @@ defmodule HangmanTextClient.Player do
   def continue(game) do
     game
     |> Summary.display()
-    |> prompt()
+    |> Prompter.accept_move()
     |> make_move()
     |> play()
-  end
-
-  defp prompt(game) do
-    game
   end
 
   defp make_move(game) do
