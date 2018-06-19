@@ -1,4 +1,4 @@
 %{
-  "dictionary": {:git, "https://github.com/rawandrew/dictionary.git", "6269490c05126995d4e54a528c68d06bf821472a", []},
-  "hangman": {:git, "https://github.com/rawandrew/hangman.git", "aa6a2a777b7183017e1c6c233c8ba8a988151840", []},
+  "dictionary": {:git, "https://github.com/rawandrew/dictionary.git", "b517d0a228983e9ee614ec33dc67a1fa2dfa2ee5", []},
+  "hangman": {:git, "https://github.com/rawandrew/hangman.git", "463f7967c89bd9698a715e7e43584e9d1b53ceef", []},
 }
